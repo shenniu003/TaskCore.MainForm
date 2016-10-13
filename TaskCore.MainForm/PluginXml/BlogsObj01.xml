@@ -1,0 +1,29 @@
+﻿<!--
+  1.xml配置模板
+  2.utf-8文件
+  3.复制到程序根目录下面PluginXml文件夹下
+  4.每个任务建议创建和程序dll名称相同xml配置文件
+-->
+<TaskMain>
+  <!--固定：执行任务时间计时器（分钟）-->
+  <Timer>1</Timer>
+  <!--固定：任务名称-->
+  <Name>获取博客信息01</Name>
+  <!--固定：账号-->
+  <UserName></UserName>
+  <!--固定：密码-->
+  <UserPwd></UserPwd>
+  <!--固定：key-->
+  <ApiKey></ApiKey>
+  <!--固定：key-->
+  <ApiUrl></ApiUrl>
+  <!--固定：是否关闭任务 1:是 0：否-->
+  <CloseTask>0</CloseTask>
+  
+<!--固定：描述-->
+  <Des>获取博客信息</Des>
+  <!--自定义：其他配置信息-->
+  <Other>
+    <ShenNiuBuXing3>神牛步行3</ShenNiuBuXing3>
+  </Other>
+</TaskMain>

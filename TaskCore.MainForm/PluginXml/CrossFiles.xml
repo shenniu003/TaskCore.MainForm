@@ -1,0 +1,6 @@
+﻿<!--
+  CrossFiles指定对应任务的dll文件，必须存在的文件
+-->
+<TaskMain>
+  <File>TaskCore.Test.dll</File>
+</TaskMain>
